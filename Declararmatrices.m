@@ -1,0 +1,10 @@
+A = randi([0 10],4,4)
+B = randi([0 10],4,4)
+suma = A+B
+resta = A-B
+producto= A*B
+transA = A.'
+transB = B.'
+operacion1= transA*B
+operacion2= transB*A
+potencia = A^2
