@@ -1,8 +1,8 @@
-x = linspac(-10, 10, 40);
+x = linspace(-10, 10, 40);
 
 % Graficar |x|
-subpllot(2, 3, 1);
-plot(x, abs(X));
+subplot(2, 3, 1);
+plot(x, abs(x));
 title('|x|');
 xlabel('x');
 ylabel('y');
