@@ -1,3 +1,4 @@
-function [elemento] = elemento (n,x,y);
-elemento= matrizA(n,x,y)
+function [elemento] = elemento (n,x,y)
+matrizA = magic(n);
+elemento = matrizA(x,y);
 end
